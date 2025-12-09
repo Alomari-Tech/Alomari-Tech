@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alomari Tech - AI Services & Automation</title>
+    <meta name="description" content="Cutting-edge AI services and automation solutions for modern businesses. Transform your operations with intelligent automation technology.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Alomari</span>
+                <span class="logo-accent">Tech</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#hiring" class="nav-link hiring-link">We're Hiring</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="animated-bg"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Revolutionizing Business with 
+                    <span class="gradient-text">AI Automation</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Transform your operations with cutting-edge artificial intelligence and automation solutions. 
+                    We build intelligent systems that work 24/7 to optimize your business processes.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('services')">
+                        <span>Explore Services</span>
+                        <i class="fas fa-rocket"></i>
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Projects Delivered</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">AI Monitoring</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Alomari Tech</h2>
+                <p class="section-subtitle">Pioneering the future of intelligent automation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To democratize artificial intelligence and make advanced automation accessible to businesses of all sizes. We believe in creating intelligent solutions that enhance human capability rather than replace it.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Our Expertise</h3>
+                        <p>With over a decade of experience in AI and machine learning, our team specializes in developing custom automation solutions that drive real business value and competitive advantage.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Our Vision</h3>
+                        <p>To be the leading AI automation partner for businesses worldwide, transforming how organizations operate through intelligent, scalable, and sustainable automation technology.</p>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python AI</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud AI</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data Analytics</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Process Automation</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>AI Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive AI automation solutions for modern businesses</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Development</h3>
+                    <p>Custom AI models and neural networks designed specifically for your business needs. From computer vision to natural language processing.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom ML Models</li>
+                        <li><i class="fas fa-check"></i> Neural Networks</li>
+                        <li><i class="fas fa-check"></i> Deep Learning</li>
+                        <li><i class="fas fa-check"></i> AI Integration</li>
+                    </ul>
+                    <div class="service-price">Starting at $5,000</div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Process Automation</h3>
+                    <p>Streamline your business processes with intelligent automation that reduces costs and increases efficiency by up to 80%.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Workflow Automation</li>
+                        <li><i class="fas fa-check"></i> Document Processing</li>
+                        <li><i class="fas fa-check"></i> Data Integration</li>
+                        <li><i class="fas fa-check"></i> Quality Assurance</li>
+                    </ul>
+                    <div class="service-price">Starting at $3,000</div>
+                    <div class="featured-badge">Most Popular</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data Analytics</h3>
+                    <p>Transform raw data into actionable insights with advanced analytics and predictive modeling powered by AI algorithms.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Predictive Analytics</li>
+                        <li><i class="fas fa-check"></i> Real-time Dashboards</li>
+                        <li><i class="fas fa-check"></i> Data Visualization</li>
+                        <li><i class="fas fa-check"></i> Business Intelligence</li>
+                    </ul>
+                    <div class="service-price">Starting at $4,000</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud AI Solutions</h3>
+                    <p>Scalable cloud-based AI infrastructure that grows with your business, ensuring optimal performance and cost efficiency.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> AWS/Azure/GCP Integration</li>
+                        <li><i class="fas fa-check"></i> Auto-scaling</li>
+                        <li><i class="fas fa-check"></i> API Development</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                    </ul>
+                    <div class="service-price">Starting at $6,000</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Chatbots & Virtual Assistants</h3>
+                    <p>Intelligent conversational AI that enhances customer experience and automates customer support operations.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Natural Language Processing</li>
+                        <li><i class="fas fa-check"></i> Multi-platform Integration</li>
+                        <li><i class="fas fa-check"></i> Learning Capabilities</li>
+                        <li><i class="fas fa-check"></i> Analytics & Insights</li>
+                    </ul>
+                    <div class="service-price">Starting at $2,500</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>AI Security & Compliance</h3>
+                    <p>Ensure your AI systems are secure, compliant, and trustworthy with our comprehensive security framework.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Security Audits</li>
+                        <li><i class="fas fa-check"></i> Compliance Monitoring</li>
+                        <li><i class="fas fa-check"></i> Risk Assessment</li>
+                        <li><i class="fas fa-check"></i> Ethical AI Guidelines</li>
+                    </ul>
+                    <div class="service-price">Starting at $7,000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Case Studies</h2>
+                <p class="section-subtitle">Real-world AI automation success stories</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-stats">
+                                <span><i class="fas fa-arrow-down"></i> 75% Cost Reduction</span>
+                                <span><i class="fas fa-clock"></i> 3 Months</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Inventory Automation</h3>
+                        <p>Implemented AI-powered inventory management system for a leading e-commerce platform, reducing manual work by 90% and improving accuracy.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span>$2M+ Annual Savings</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-percentage"></i>
+                                <span>99.5% Accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-stats">
+                                <span><i class="fas fa-users"></i> 10K+ Users</span>
+                                <span><i class="fas fa-star"></i> 4.9/5 Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Healthcare AI Assistant</h3>
+                        <p>Developed an intelligent chatbot for patient scheduling and medical inquiries, serving over 10,000 patients monthly with 24/7 availability.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Azure</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-clock"></i>
+                                <span>24/7 Availability</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>80% Call Reduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-stats">
+                                <span><i class="fas fa-chart-line"></i> 200% ROI</span>
+                                <span><i class="fas fa-trophy"></i> Industry Award</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Financial Fraud Detection</h3>
+                        <p>Created an AI-powered fraud detection system for a fintech company, processing millions of transactions with real-time risk assessment.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Real-time Processing</span>
+                            <span class="tech-tag">TensorFlow</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>99.9% Fraud Detection</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-bolt"></i>
+                                <span>&lt;100ms Response</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <button class="btn btn-primary">
+                    <span>View All Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Team</h2>
+                <p class="section-subtitle">Meet the experts behind Alomari Tech</p>
+            </div>
+            <div class="team-grid">
+                <!-- CEO - Centered at Top -->
+                <div class="team-member team-ceo">
+                    <div class="member-image">
+                        <img src="Gemini_Generated_Image_5bbxhl5bbxhl5bbx.png" alt="Amir Alomari" class="member-photo">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Amir Alomari</h3>
+                        <p class="member-role">CEO & Founder</p>
+                        <p class="member-bio">Leads the team and oversees AI projects.</p>
+                        <p class="member-experience">Experience: 5 years in AI development and automation projects.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">AI Strategy</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Members Row -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="member-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Alami</h3>
+                        <p class="member-role">CTO</p>
+                        <p class="member-bio">Designs backend systems and cloud solutions.</p>
+                        <p class="member-experience">Experience: 4 years in software engineering and cloud architecture.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Cloud Architecture</span>
+                            <span class="skill-tag">System Design</span>
+                            <span class="skill-tag">DevOps</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="member-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Omar Khalid</h3>
+                        <p class="member-role">AI Specialist</p>
+                        <p class="member-bio">Works on AI modeling and predictive solutions.</p>
+                        <p class="member-experience">Experience: 3 years in machine learning and NLP projects.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">NLP</span>
+                            <span class="skill-tag">Data Modeling</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="member-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Leila Mansour</h3>
+                        <p class="member-role">Data Scientist</p>
+                        <p class="member-bio">Turns data into actionable insights for small projects.</p>
+                        <p class="member-experience">Experience: 3 years in data analysis and visualization.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Analytics</span>
+                            <span class="skill-tag">Reporting</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="member-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Samir Haddad</h3>
+                        <p class="member-role">HR & Operations</p>
+                        <p class="member-bio">Manages team operations and recruitment.</p>
+                        <p class="member-experience">Experience: 4 years in HR and startup operations.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">HR</span>
+                            <span class="skill-tag">Team Management</span>
+                            <span class="skill-tag">Office Operations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pricing Plans</h2>
+                <p class="section-subtitle">Choose the perfect AI automation solution for your business</p>
+            </div>
+            <div class="pricing-toggle">
+                <span class="toggle-label">Monthly</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="pricing-toggle">
+                    <label for="pricing-toggle"></label>
+                </div>
+                <span class="toggle-label">Yearly <span class="discount">Save 20%</span></span>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <p>Perfect for small businesses</p>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount monthly">999</span>
+                            <span class="amount yearly">799</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 1 AI Model Implementation</li>
+                        <li><i class="fas fa-check"></i> Basic Automation Workflow</li>
+                        <li><i class="fas fa-check"></i> Email Support</li>
+                        <li><i class="fas fa-check"></i> Monthly Reports</li>
+                        <li><i class="fas fa-check"></i> 99.9% Uptime SLA</li>
+                    </ul>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <p>Ideal for growing companies</p>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount monthly">2499</span>
+                            <span class="amount yearly">1999</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 5 AI Models</li>
+                        <li><i class="fas fa-check"></i> Advanced Automation</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> Real-time Analytics</li>
+                        <li><i class="fas fa-check"></i> Custom Integrations</li>
+                        <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                    </ul>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <p>For large-scale operations</p>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount monthly">4999</span>
+                            <span class="amount yearly">3999</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited AI Models</li>
+                        <li><i class="fas fa-check"></i> Enterprise Automation</li>
+                        <li><i class="fas fa-check"></i> 24/7 Phone Support</li>
+                        <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                        <li><i class="fas fa-check"></i> White-label Solutions</li>
+                        <li><i class="fas fa-check"></i> Custom Development</li>
+                        <li><i class="fas fa-check"></i> On-site Training</li>
+                    </ul>
+                    <button class="btn btn-outline">Contact Sales</button>
+                </div>
+            </div>
+            <div class="pricing-footer">
+                <p>All plans include free consultation and setup. No hidden fees. Cancel anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to transform your business with AI? Let's talk.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Office</h4>
+                            <p>45 Al-Rai Street<br>Al-Rai Tech Park, Kuwait City 13000<br>Kuwait</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+965 96736001 (Whatsapp)<br>Available Sunday-Thursday 3PM-10PM GMT +3</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:amirooxstar@gmail.com">amirooxstar@gmail.com</a></li>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Response Time</h4>
+                            <p>Typically within 2 hours<br>Emergency support 24/7</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone">
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="ai-development">AI Development</option>
+                            <option value="process-automation">Process Automation</option>
+                            <option value="data-analytics">Data Analytics</option>
+                            <option value="cloud-ai">Cloud AI Solutions</option>
+                            <option value="chatbots">Chatbots & Virtual Assistants</option>
+                            <option value="ai-security">AI Security & Compliance</option>
+                            <option value="consultation">Free Consultation</option>
+                        </select>
+                        <label for="service">Service of Interest</label>
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Tell us about your project</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- We're Hiring Section -->
+    <section id="hiring" class="hiring">
+        <div class="container">
+            <div class="hiring-content">
+                <div class="hiring-text">
+                    <h2>We're Hiring!</h2>
+                    <p>Join our team of AI innovators and help shape the future of automation. We're looking for passionate individuals who want to make a real impact.</p>
+                    <div class="hiring-benefits">
+                        <div class="benefit">
+                            <i class="fas fa-laptop"></i>
+                            <span>Remote-First Culture</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Learning & Development</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-heart"></i>
+                            <span>Health & Wellness</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-rocket"></i>
+                            <span>Growth Opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hiring-cta">
+                    <h3>Open Positions</h3>
+                    <div class="positions">
+                        <div class="position">
+                            <h4>Senior AI Engineer</h4>
+                            <p>Lead the development of cutting-edge AI solutions</p>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Remote</span>
+                        </div>
+                        <div class="position">
+                            <h4>Data Scientist</h4>
+                            <p>Transform data into actionable business insights</p>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Remote</span>
+                        </div>
+                        <div class="position">
+                            <h4>DevOps Engineer</h4>
+                            <p>Build and maintain scalable AI infrastructure</p>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Remote</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="openApplicationForm()">
+                        <span>Apply Now</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-text">Alomari</span>
+                        <span class="logo-accent">Tech</span>
+                    </div>
+                    <p>Transforming businesses with intelligent AI automation solutions. The future is automated, and we're leading the way.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/alomari-tech"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI Development</a></li>
+                        <li><a href="#services">Process Automation</a></li>
+                        <li><a href="#services">Data Analytics</a></li>
+                        <li><a href="#services">Cloud AI Solutions</a></li>
+                        <li><a href="#services">Chatbots & Virtual Assistants</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#projects">Case Studies</a></li>
+                        <li><a href="#hiring">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Whitepapers</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+               <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> 45 Al-Rai Street, Al-Rai Tech Park, Kuwait City 13000, Kuwait</li>
+                    <li><i class="fas fa-phone"></i> +965 9673 6001 (Whatsapp)</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:amirooxstar@gmail.com">amirooxstar@gmail.com</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alomari Tech. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
